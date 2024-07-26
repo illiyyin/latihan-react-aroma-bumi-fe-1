@@ -1,0 +1,82 @@
+h1 {
+    color: #01888b;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 500px;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    margin-bottom: 50px;
+}
+
+form #name {
+    width: 250px;
+    padding: 10px;
+    margin-left: 85px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    
+}
+
+form #email {
+    width: 250px;
+    padding: 10px;
+    margin-left: 85px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    
+}
+
+form #phone {
+    width: 250px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+form #subject {
+    width: 250px;
+    padding: 10px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+form #message {
+    width: 250px;
+    padding: 10px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+
+button {
+    color: white;
+    background-color: #A91D3A;
+    border: none;
+    border-radius: 25px;
+    padding: 3px 25px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    color: black;
+    background-color: #FFF8E3;
+}
