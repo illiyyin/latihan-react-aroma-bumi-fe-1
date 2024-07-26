@@ -1,0 +1,257 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", "Montserrat", sans-serif;
+
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    /* background-color: #000; */
+}
+
+/* Main > Hero */
+.hero-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(20, 54, 66, 0.7);
+    background-image: url("../images/CoffeeHeader.png");
+    background-blend-mode: color-dodge;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 800px;
+}
+
+.hero-image>.hero-text>.hero-title {
+    font-size: 70px;
+    font-weight: 800;
+    color: #F9FBFE;
+    text-align: center;
+    line-height: 40px;
+}
+
+.hero-image>.hero-text>.hero-description {
+    font-size: 36px;
+    color: #F9FBFE;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* Main > Content */
+
+.content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 7.5% 18%;
+    align-items: baseline;
+    row-gap: 100px;
+    /* align-content: center; */
+}
+
+.content h2 {
+    display: inline-block;
+    font-size: 48px;
+    font-weight: 800;
+    color: rgba(15, 139, 141, 1);
+    border-bottom: 4px solid rgba(236, 154, 41, 1);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 2.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.content button {
+    font-size: 24px;
+
+    width: 335px;
+    height: 70px;
+
+    background-color: rgba(168, 32, 26, 1);
+    color: rgba(249, 251, 254, 1);
+
+    border: 0;
+    border-radius: 55px;
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+/* Main > Content > Introduction : index.html */
+
+.content>.introduction {
+    display: flex;
+    width: 100%;
+
+    gap: 100px;
+}
+
+.content>.introduction>img {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 350px;
+    height: 460px;
+}
+
+/* Main > Content > Showcase */
+
+.content>.showcase {
+    display: flex;
+    width: 100%;
+
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content>.showcase>img {
+    width: 380px;
+    max-width: 460px;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* Main > Content > Find Us */
+.content>.find-cafes {
+    display: flex;
+    width: 100%;
+
+    gap: 85px;
+}
+
+.content>.find-cafes>img {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 390px;
+    height: 460px;
+}
+
+/* Main > Content > Social Media */
+.content>.social-media {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+}
+
+.social-media>.social-media-desc>h2 {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.content>.social-media>.social-media-desc {
+    text-align: center;
+}
+
+.content>.social-media>.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    row-gap: 40px;
+    column-gap: 40px;
+}
+
+.content>.social-media>.image-container>img {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 100%;
+    /* height: 100%; */
+    aspect-ratio: 1/1;
+}
+
+/* Main > Content > Ask */
+.content>.ask {
+    display: flex;
+    width: 100%;
+}
+
+.content>.ask>.ask-desc {
+    width: 100%;
+    text-align: center;
+}
+
+.ask>.ask-desc>h2 {
+    border-bottom: none;
+}
+
+.content>.ask>.ask-desc>p {
+    text-align: center;
+}
+
+.content>.ask>.ask-desc>button {
+    margin-top: 30px;
+}
+
+.aroma-instagram {
+    border-bottom: 2px solid rgba(236, 154, 41, 1);
+    padding-bottom: 3px;
+    color: rgba(236, 154, 41, 1);
+}
+
+/* Main > Content > Coffee Products */
+.content>.coffee-products {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content>.social-media>.social-media-desc {
+    text-align: center;
+}
+
+.content>.social-media>.image-container>.image-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    gap: 70px;
+    justify-items: baseline;
+    padding-left: 0;
+}
+
+.content>.social-media>.image-container>.image-list>li {
+    list-style-type: none;
+}
+
+.content>.social-media>.image-container>.image-list>li>img {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 235x;
+    height: 235px;
+}
+
+/* Kombinasi Main > Content > Sections (class) > etc */
+.content>.introduction>.intro-desc>h2,
+.content>.find-cafes>.find-cafes-desc>h2,
+.content>.showcase>.showcase-desc>h2 {
+    margin: 0;
+}
+
+.content>.introduction>.intro-desc>p,
+.content>.showcase>.showcase-desc>p,
+.content>.find-cafes>.find-cafes-desc>p {
+    margin-top: 20px;
+}
+
+.products-menu>ul>li>a,
+.store-menu>ul>li>a,
+.contact-menu>ul>li>a {
+    font-size: 20px;
+    color: #F9FBFE;
+    text-decoration: none;
+}
