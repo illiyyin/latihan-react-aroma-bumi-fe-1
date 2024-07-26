@@ -1,0 +1,47 @@
+div .maps {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 50px;
+    
+}
+iframe {
+    width: 572px;
+    height: 572px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.box1 { 
+    width: 400px;
+    display: block;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px grey;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.box2 { 
+    width: 400px;
+    display: block;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px grey;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.box3 { 
+    width: 400px;
+    display: block;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px grey;
+    padding: 20px;
+    background-color: white;
+}
