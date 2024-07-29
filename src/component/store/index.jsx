@@ -9,7 +9,7 @@ const store = () => {
         </div>
             <div className="maps">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15865.10315198276!2d106.8334673!3d-6.2273237!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3ee26e05b87%3A0x3aafa8f9ce65281b!2sAriobimo%20Sentral%20Building!5e0!3m2!1sid!2sid!4v1717429991157!5m2!1sid!2sid" 
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+            width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" 
             referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div className="box1">
