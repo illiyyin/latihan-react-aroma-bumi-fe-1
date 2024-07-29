@@ -1,38 +1,40 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./component/home";
-import Product from "./component/product";
-import Contact from "./component/contact";
-import Store from "./component/store";
-import Layout from "./component/shared/Layout";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Home from './component/home'
+import Product from './component/product'
+import Contact from './component/contact'
+import Store from './component/store'
+import Layout from './component/shared/Layout'
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Layout />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-      {
-        path: "/product",
-        element: <Product />,
-      },
-      {
-        path: "/contact",
-        element: <Contact />,
-      },
-      {
-        path: "/store",
-        element: <Store />,
-      },
-    ],
-  },
-  {basename: '/latihan-react-aroma-bumi-fe-1/'}
-]);
+const router = createBrowserRouter(
+	[
+		{
+			path: '/',
+			element: <Layout />,
+			children: [
+				{
+					path: '/',
+					element: <Home />,
+				},
+				{
+					path: '/product',
+					element: <Product />,
+				},
+				{
+					path: '/contact',
+					element: <Contact />,
+				},
+				{
+					path: '/store',
+					element: <Store />,
+				},
+			],
+		},
+	],
+	{ basename: '/latihan-react-aroma-bumi-fe-1/' }
+)
 
 function App() {
-  return <RouterProvider router={router} />;
+	return <RouterProvider router={router} />
 }
 
-export default App;
+export default App
