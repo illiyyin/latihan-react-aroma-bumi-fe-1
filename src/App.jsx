@@ -30,7 +30,7 @@ const router = createBrowserRouter(
 			],
 		},
 	],
-	{ basename: '/latihan-react-aroma-bumi-fe-1/' }
+	{basename: '/latihan-react-aroma-bumi-fe-1/' }
 )
 
 function App() {
