@@ -9,7 +9,7 @@ export default function Home() {
       <section className="hero-image">
         <div className="hero-text">
           <h1 className="hero-title">Freshly Brewed</h1>
-          <h1 className="hero-title">Coffee & Tea</h1>
+          <h1 className="hero-title">Coffee & Green Tea</h1>
           <p className="hero-description">Best qualities from our local soil</p>
         </div>
       </section>

@@ -13,13 +13,13 @@ export default function Navbar() {
 					<nav>
 						<ul>
 							<li>
-								<a href='menu.html'>Products</a>
+								<a href='/product'>Products</a>
 							</li>
 							<li>
-								<a href='findus.html'>Store</a>
+								<a href='/store'>Store</a>
 							</li>
 							<li>
-								<a href='help.html'>Contact</a>
+								<a href='/contact'>Contact</a>
 							</li>
 						</ul>
 					</nav>
